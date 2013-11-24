@@ -376,10 +376,6 @@ table {
   border-spacing: 0;
 }
 
-/* Regular */
-/* Italic */
-/* Condensed */
-/* Condensed Italic */
 @font-face {
   font-family: 'font-icons';
   src: url("/assets/fonts/fonticons/font-icons.eot");
@@ -429,8 +425,8 @@ html {
 body {
   height: 100%;
   color: #473c3f;
-  font-family: 'Merriweather', Georgia, serif;
-  background: url(/assets/images/content/pat.jpg) bottom center no-repeat;
+  font-family: 'Lora', Georgia, serif;
+  background: url(../images/content/pat.jpg) bottom center no-repeat;
 }
 
 a {
