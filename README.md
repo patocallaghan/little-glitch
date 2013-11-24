@@ -1,4 +1,4 @@
 Little Glitch
 =============
 
-HTML for my [littleglitch.io](littleglitch.io) domain
+HTML for my [http://littleglitch.io](littleglitch.io) domain
