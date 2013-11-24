@@ -21,16 +21,16 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Pat O'Callaghan - UI Engineer"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+			Blog of Pat O'Callaghan
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+			frontend development, css, html, html5, javascript
 				"""
 
 			# The website's styles
