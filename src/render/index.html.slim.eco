@@ -1,6 +1,24 @@
 ---
-title: Test Title
+title: Little Glitch
 layout: default
 ---
 
-h1 <%- @document.title %>
+header
+	h1
+		| <%- @document.title %>
+		span Pat O'Callaghan &mdash; UI Engineer
+
+main
+	ul.nav.icons
+		li
+			a[href="https://twitter.com/patocallaghan" target="_blank"]
+				span.visuallyhidden Twitter
+				span.iconf-twitter[aria-hidden="true"]
+		li
+			a[href="https://github.com/patocallaghan" target="blank"]
+				span.visuallyhidden Github
+				span.iconf-github[aria-hidden="true"]
+		li
+			a[href="http://nz.linkedin.com/pub/pat-o-callaghan/4/421/545/" target="blank"]
+				span.visuallyhidden Linkedin
+				span.iconf-linkedin[aria-hidden="true"]

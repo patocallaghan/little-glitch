@@ -35,7 +35,7 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/styles/style.css'
+				'/assets/css/style.css'
 			]
 
 			# The website's scripts
@@ -98,10 +98,16 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+	
+	# Configure Plugins
+	# Should contain the plugin short names on the left, and the configuration to pass the plugin on the right
+	plugins:  # example
+		sass:
+			bundler: true
 
  # Environments
     # Allows us to set custom configuration for specific environments
-    environments:  # default
+	environments:  # default
         development:  # default
             # Always refresh from server
             maxAge: false  # default
