@@ -10,6 +10,7 @@
 		<title><%= @getPreparedTitle() %></title>
 		<meta name="description" content="<%= @getPreparedDescription() %>" />
 		<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+		<link rel="icon" type="image/png" href="favicon.png"/>
 
 		<!-- DocPad Meta -->
 		<%- @getBlock('meta').toHTML() %>
