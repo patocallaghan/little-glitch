@@ -378,8 +378,8 @@ table {
 
 @font-face {
   font-family: 'font-icons';
-  src: url("/assets/fonts/fonticons/font-icons.eot");
-  src: url("/assets/fonts/fonticons/font-icons.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fonticons/font-icons.ttf") format("truetype"), url("/assets/fonts/fonticons/font-icons.woff") format("woff"), url("/assets/fonts/fonticons/font-icons.svg#font-icons") format("svg");
+  src: url("../fonts/fonticons/font-icons.eot");
+  src: url("../fonts/fonticons/font-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/fonticons/font-icons.ttf") format("truetype"), url("../fonts/fonticons/font-icons.woff") format("woff"), url("../fonts/fonticons/font-icons.svg#font-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
