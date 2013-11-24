@@ -405,58 +405,6 @@ table {
     border-spacing: 0;
 }
 
-
-/* Regular */
-// @font-face {
-//     font-family: 'League Gothic';
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-regular-webfont.eot');
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-regular-webfont.woff') format('woff'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-regular-webfont.ttf') format('truetype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-
-// }
-
-/* Italic */
-// @font-face {
-//     font-family: 'League Gothic';
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-italic-webfont.eot');
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-italic-webfont.woff') format('woff'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-italic-webfont.ttf') format('truetype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
-//     font-weight: normal;
-//     font-style: italic;
-
-// }
-
-/* Condensed */
-// @font-face {
-//     font-family: 'League Gothic Condensed';
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-condensed-regular-webfont.eot');
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-condensed-regular-webfont.woff') format('woff'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-
-// }
-
-/* Condensed Italic */
-// @font-face {
-//     font-family: 'League Gothic Condensed';
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-condensed-italic-webfont.eot');
-//     src: url('/assets/fonts/leaguegothic/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-condensed-italic-webfont.woff') format('woff'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
-//          url('/assets/fonts/leaguegothic/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
-//     font-weight: normal;
-//     font-style: italic;
-// }
-
 // Font Icons
 @font-face {
 	font-family: 'font-icons';
@@ -478,7 +426,7 @@ table {
 	text-transform: none;
 	line-height: 1;
 	font-size: 50px;
-	
+
 	/* Enable Ligatures ================ */
 	-webkit-font-feature-settings: "liga";
 	-moz-font-feature-settings: "liga=1";
@@ -511,8 +459,8 @@ html {
 body {
 	height: 100%;
 	color: #473c3f;
-	font-family: 'Merriweather', Georgia, serif;
-	background: url(/assets/images/content/pat.jpg) bottom center no-repeat;
+	font-family: 'Lora', Georgia, serif;
+	background: url(../images/content/pat.jpg) bottom center no-repeat;
 }
 a {
 	text-decoration: none;

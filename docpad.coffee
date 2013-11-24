@@ -35,7 +35,7 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/assets/css/style.css'
+				'assets/css/style.css'
 			]
 
 			# The website's scripts
@@ -98,7 +98,7 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
-	
+
 	# Configure Plugins
 	# Should contain the plugin short names on the left, and the configuration to pass the plugin on the right
 	plugins:  # example
