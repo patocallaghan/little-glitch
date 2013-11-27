@@ -436,8 +436,16 @@ body {
 }
 
 a {
+  -webkit-transition: color 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+  -webkit-transition-delay: 0ms;
+  -moz-transition: color 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 0ms;
+  -o-transition: color 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 0ms;
+  transition: color 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 0ms;
   text-decoration: none;
   color: #fe6e43;
+}
+a:hover {
+  color: #71d4d4;
 }
 
 header {
@@ -542,5 +550,10 @@ h1 span {
     position: relative;
     top: -35px;
     text-align: right;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    padding-bottom: 0;
   }
 }
