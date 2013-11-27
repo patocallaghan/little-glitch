@@ -452,6 +452,7 @@ table {
 
 @import "compass/css3";
 @import "breakpoint";
+@import "ceaser-easing";
 
 html {
 	height: 100%;
@@ -468,8 +469,12 @@ body {
 	background-size: contain;
 }
 a {
+	@include ceaser-transition(color, 300ms, $easeOutSine);
 	text-decoration: none;
 	color: #fe6e43;
+	&:hover {
+		color: #71d4d4;
+	}
 }
 header {
 	text-align: center;
@@ -578,3 +583,8 @@ h1 {
 
 }
 
+@include breakpoint( 1400px, $no-query: true ) {
+	body {
+		padding-bottom: 0;
+	}
+}
