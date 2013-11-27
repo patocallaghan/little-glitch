@@ -103,6 +103,7 @@ docpadConfig = {
 	# Should contain the plugin short names on the left, and the configuration to pass the plugin on the right
 	plugins:  # example
 		sass:
+			requireLibraries: ['breakpoint', 'ceaser-easing']
 			bundler: true
 
  # Environments

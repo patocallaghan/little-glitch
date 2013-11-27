@@ -451,16 +451,21 @@ table {
 }
 
 @import "compass/css3";
+@import "breakpoint";
 
 html {
 	height: 100%;
 	background-color: #f1f1f1;
 }
 body {
+	@include box-sizing('border-box');
 	height: 100%;
+	min-height: 670px;
+	padding-bottom: percentage(500/663);
 	color: #473c3f;
 	font-family: 'Lora', Georgia, serif;
-	background: url(../images/content/pat.jpeg) bottom center no-repeat;
+	background: url(../images/content/pat-small.jpg) bottom center no-repeat;
+	background-size: contain;
 }
 a {
 	text-decoration: none;
@@ -472,20 +477,21 @@ header {
 h1 {
 	display: inline-block;
 	margin: auto;
-	padding-top: 60px;
+	padding-top: 20px;
 	width: auto;
 	text-align: center;
-	font-size: 160px;
+	line-height: 1.1;
+	font-size: 100px;
 	font-family: 'Oswald', Arial, serif;
 	span {
-		position: relative;
-		top: -35px;
 		display: block;
 		width: 100%;
+		margin-top: 32px;
+		margin-bottom: 32px;
 		font-family: 'Lora', Georgia, serif;
 		font-size: 18px;
 		font-weight: normal;
-		text-align: right;
+		text-align: center;
 	}
 }
 
@@ -537,5 +543,38 @@ h1 {
     overflow: visible;
     position: static;
     width: auto;
+}
+
+@include breakpoint( 460px, $no-query: true ) {
+	h1 {
+		padding-top: 100px;
+	}
+}
+@include breakpoint( 550px, $no-query: true ) {
+	body {
+		min-height: 900px;
+	}
+}
+@include breakpoint( 600px, $no-query: true ) {
+	body {
+		background: url(../images/content/pat.jpeg) bottom center no-repeat;
+	}
+	h1 {
+		font-size: 120px;
+	}
+}
+@include breakpoint( 750px, $no-query: true ) {
+
+	h1 {
+		padding-top: 60px;
+		font-size: 160px;
+		line-height: auto;
+		span {
+			position: relative;
+			top: -35px;
+			text-align: right;
+		}
+	}
+
 }
 
