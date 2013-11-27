@@ -423,10 +423,16 @@ html {
 }
 
 body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   height: 100%;
+  min-height: 670px;
+  padding-bottom: 75.41478%;
   color: #473c3f;
   font-family: 'Lora', Georgia, serif;
-  background: url(../images/content/pat.jpeg) bottom center no-repeat;
+  background: url(../images/content/pat-small.jpg) bottom center no-repeat;
+  background-size: contain;
 }
 
 a {
@@ -441,21 +447,22 @@ header {
 h1 {
   display: inline-block;
   margin: auto;
-  padding-top: 60px;
+  padding-top: 20px;
   width: auto;
   text-align: center;
-  font-size: 160px;
+  line-height: 1.1;
+  font-size: 100px;
   font-family: 'Oswald', Arial, serif;
 }
 h1 span {
-  position: relative;
-  top: -35px;
   display: block;
   width: 100%;
+  margin-top: 32px;
+  margin-bottom: 32px;
   font-family: 'Lora', Georgia, serif;
   font-size: 18px;
   font-weight: normal;
-  text-align: right;
+  text-align: center;
 }
 
 .nav {
@@ -504,4 +511,36 @@ h1 span {
   overflow: visible;
   position: static;
   width: auto;
+}
+
+@media (min-width: 460px) {
+  h1 {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 550px) {
+  body {
+    min-height: 900px;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    background: url(../images/content/pat.jpeg) bottom center no-repeat;
+  }
+
+  h1 {
+    font-size: 120px;
+  }
+}
+@media (min-width: 750px) {
+  h1 {
+    padding-top: 60px;
+    font-size: 160px;
+    line-height: auto;
+  }
+  h1 span {
+    position: relative;
+    top: -35px;
+    text-align: right;
+  }
 }
