@@ -120,6 +120,13 @@ docpadConfig = {
 
             # Listen to port 9778 on the development environment
             port: 9778  # example
+		production:
+			plugins:
+                livereload:
+                    enabled: false
+				sass:
+					outputStyle: 'compressed'
+
 
 }
 
